@@ -3,17 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <title>Australia</title>
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
-      <h1>Australia</h1>
-    </header>
+    <div id="wrapper">
+   <header>
+    <h1>Australia</h1>
 
-    <figure>
-      <img src="australia-opera-house.jpg" alt="Sydney Opera House" />
+     <figure>
+      <img src="img/australia-opera-house.jpg" alt="Sydney Opera House" />
       <figcaption>Sydney Opera House located in Sydney, Australia. (Photo by: Karli Feinstein)</figcaption>
-    </figure>
+     </figure>
+
+   </header>
 
 
 
@@ -21,13 +24,13 @@
       <ul>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#geography">Geography</a></li>
-        <li><a href="#peopleandsociety">People and Society</a></li>
+        <li><a href="#people-and-society">People and Society</a></li>
         <li><a href="#economy">Economy</a></li>
       </ul>
     </nav>
 
-    <main>
 
+     <main>
       <section>
         <h2 id="introduction">Introduction</h2>
 
@@ -40,17 +43,23 @@
         <p>Australia is the driest inhabited continent on earth, making it particularly vulnerable to the challenges of climate change. Australia is home to 10<abbr title="Percent">%</abbr> of the world's biodiversity, and a great number of its flora and fauna exist nowhere else in the world.</p>
       </section>
 
+
       <section>
         <h2 id="geography">Geography</h2>
-          <article>
+         <article>
+
            <h3>Climate</h3>
             <p>The climate in Australia is generally arid to semiarid, which means the continent can be dry while having large amounts of rain. In the south and east of Australia the climate is temperate, but the north of Australia is always tropical.</p>
 
-    <figure>
-      <img src="australia-bondi-iceberg.jpg" alt="Bondi Icebergs" />
-      <figcaption>Bondi Icebergs located in the north of Australia. (Photo by: Karli Feinstein)</figcaption>
-    </figure>
-          </article>
+
+          <aside>
+          <figure>
+            <img src="img/australia-bondi-iceberg.jpg" alt="Bondi Icebergs" />
+           <figcaption>Bondi Icebergs located in the north of Australia. (Photo by: Karli Feinstein)</figcaption>
+            </figure>
+          </aside>
+
+         </article>
 
           <article>
            <h3>Natural Resources</h3>
@@ -120,7 +129,7 @@
 
 
       <section>
-        <h2 id="peopleandsociety">People and Society</h2>
+        <h2 id="people-and-society">People and Society</h2>
           <article>
             <h3>Population Distribution</h3>
             <p>Population is primarily located on the periphery, with the highest concentration of people residing in the east and southeast. A secondary population center is located in and around Perth in the west of the States and Territories. New South Wales has by far the largest population. The interior, or "outback", has a very sparse population.</P>
@@ -129,14 +138,44 @@
 
           <article>
             <h3>Major Urban Areas-Population</h3>
-              <ol>
-                <li>Melbourne: 5.061 million</li>
-                <li>Sydney: 4.992 million</li>
-                <li>Brisbane: 2.439 million </li>
-                <li>Perth: 2.067 million</li>
-                <li>Adelaide: 1.345 million</li>
-                <li>Canberra: 462,000</li>
-              </ol>
+              <table>
+                <caption>Populated Urban Areas</caption>
+                <tr>
+                  <th>Area</th>
+                  <th>Population</th>
+                </tr>
+
+                <tr>
+                 <td>Melbourne</td>
+                 <td>5.061 million</td>
+                </tr>
+
+                <tr>
+                 <td>Sydney</td>
+                 <td>4.992 million</td>
+                </tr>
+
+                <tr>
+                 <td>Brisbane</td>
+                 <td>2.439 million</td>
+                </tr>
+
+                <tr>
+                 <td>Perth</td>
+                 <td>2.067 million</td>
+               </tr>
+
+                <tr>
+                 <td>Adelaide</td>
+                 <td>1.345 million</td>
+                </tr>
+
+                <tr>
+                 <td>Canberra</td>
+                 <td> 462,000</td>
+                </tr>
+
+              </table>
           </article>
 
           <article>
@@ -268,5 +307,6 @@
       <footer>
         <p>Source: <a href="https://www.cia.gov/the-world-factbook/countries/australia/">CIA World Factbook</a></p>
       </footer>
+    </div>
   </body>
 </html>
